@@ -25,4 +25,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: lportinari/go_ci:${{github.ref_name}}
+        tags: lportinari/go_ci:${{ github.run_id }}
